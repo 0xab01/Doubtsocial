@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/svg+xml" href="favi.jpg" />
+  <title>DoubtSocial</title>
+  <link rel="stylesheet" href="home.css">
+   
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+</head>
+
+<body>
+  <header class="header">
+    <h1 class="logo">DoubtSocial</h1>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h2>Unlock Your Learning Potential with DoubtSocial</h2>
+      <p>Where Doubts Meet Knowledge!</p>
+      <button id="cta-btn">Get Started</button>
+    </div>
+  </section>
+
+  <section class="features">
+    <div class="feature">
+      <img src="https://via.placeholder.com/150" alt="feature image">
+      <h3>Ask Your Doubts</h3>
+      <p>Get answers to all your questions and clear your doubts instantly with our AI-powered chat.</p>
+    </div>
+    <div class="feature">
+      <img src="https://via.placeholder.com/150" alt="feature image">
+      <h3>Join Groups</h3>
+      <p>Join groups on your favorite subjects and connect with other learners to learn together.</p>
+    </div>
+    <div class="feature">
+      <img src="https://via.placeholder.com/150" alt="feature image">
+      <h3>Attend Conferences</h3>
+      <p>Join weekly conferences with top educators and gain knowledge from the best.</p>
+    </div>
+  </section>
+
+  <section class="get-started" id="get-started">
+    <h2>Get Started with DoubtSocial</h2>
+    <form action="https://formsubmit.co/azanulwearehackerone@gmail.com" method="POST"/>
+      <label for="email">Enter your email address to get started:</label>
+      <input type="email" id="email" name="email" placeholder="you@example.com" required>
+      <input type="hidden" name="_next" value="file:///C:/Users/VECTOR/Desktop/DoubtSocialWebsite/thanks.html">
+      <button type="submit" value="submit">Submit</button>
+    </form>
+  </section>
+  
+  <script>
+    const emailForm = document.getElementById('email-form');
+    const emailInput = document.getElementById('email');
+    const ctaBtn = document.getElementById('cta-btn');
+
+    ctaBtn.addEventListener('click', () => {
+      window.scrollTo({
+        top: document.body.scrollHeight,
+        behavior: 'smooth'
+      });
+    });
+  </script>
+
+
+</body>
+
+</html>

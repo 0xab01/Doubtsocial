@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Thank You</title>
+	<style>
+		body {
+			background-color: #071017;
+			color: white;
+			font-family: Arial, sans-serif;
+			padding: 1rem;
+			text-align: center;
+		}
+		h1 {
+			font-size: 3rem;
+			margin-bottom: 1rem;
+		}
+		p {
+			font-size: 1.2rem;
+			margin-bottom: 2rem;
+		}
+		button {
+			background-color: #232323;
+			border: none;
+			border-radius: 5px;
+			color: white;
+			cursor: pointer;
+			font-size: 1.2rem;
+			padding: 0.5rem 1rem;
+			transition: all 0.3s ease;
+		}
+		button:hover {
+			background-color: #232323;
+		}
+		@media only screen and (min-width: 768px) {
+			body {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				height: 100vh;
+			}
+			.container {
+				background-color: #17191a;
+				border-radius: 10px;
+				box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.75);
+				padding: 2rem;
+				max-width: 600px;
+			}
+			h1 {
+				font-size: 4rem;
+			}
+			p {
+				font-size: 1.5rem;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>Thank You!</h1>
+		<p>We have received your message and will get back to you as soon as possible.</p>
+		<button onclick="window.location.href='/Users/VECTOR/Desktop/DoubtSocialWebsite/home.html'">Back to Home</button>
+	</div>
+</body>
+</html>
